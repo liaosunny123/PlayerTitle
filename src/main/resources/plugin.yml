@@ -1,0 +1,8 @@
+name: PlayerTitle
+version: '${project.version}'
+main: cn.epicmo.playertitle.PlayerTitle
+api-version: 1.19
+prefix: PlayerTitle
+authors: [ EpicMo ]
+description: Create any title for player on Paper Minecraft.
+website: https://www.epicmo.cn
