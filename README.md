@@ -1,8 +1,8 @@
 # Description
-PlayerTitle is a plugin designed for WHU Minecraft University.You can use this plugin to register your course name and distinguish you from others.
+PlayerTitle is a plugin designed for WHU Minecraft Server.You can use this plugin to register your course name and distinguish you from others.
 # Command
 PlayerTitle only suppose basic command for our special aim.
-You can use command belowing to execute special aim.
+You can use command below to execute special aim.
 
     Common Usage:
     /pt about ---Get this plugin's basic information.
@@ -12,16 +12,16 @@ You can use command belowing to execute special aim.
     /pt setdisplay [title]  ---Make the targeted title visiable.
     /pt bandisplay [title]   ---Make the targeted title unvisiable.
     Administrator Usage:
-    /ptadmin add [username] [title]  ---Set the title for a user.
-    /ptadmin remove [username] [title]   ---Remove the title for a user.
-    /ptadmin list [username]  ---Get the title list of a user.
-    /ptadmin setdisplay [username] [title]  ---Make the targeted title visiable.
-    /ptadmin bandisplay [username] [title]   ---Make the targeted title unvisiable.
-    /ptadmin changecourse [username] [targetcourseid]  ---Change a user's course title.
+    /pt add [username] [title]  ---Set the title for a user.
+    /pt remove [username] [title]   ---Remove the title for a user.
+    /pt list [username]  ---Get the title list of a user.
+    /pt setdisplay [username] [title]  ---Make the targeted title visiable.
+    /pt bandisplay [username] [title]   ---Make the targeted title unvisiable.
+    /pt changecourse [username] [targetcourseid]  ---Change a user's course title.
 
 # Notice
 1.You should know that you cannot change your courseid after you set your own courseid.If you need to change your course title , please connect your server manager.  
-2.Bandisplay command will not remove the title from the player's title lists.
+2."Bandisplay" command will not remove the title from the player's title lists.
 
 # Config
 You can find such files in the plugin's config dir.  

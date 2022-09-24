@@ -6,3 +6,21 @@ prefix: PlayerTitle
 authors: [ EpicMo ]
 description: Create any title for player on Paper Minecraft.
 website: https://www.epicmo.cn
+commands:
+  pt:
+    aliases: playertitle
+    description: Set config of playertitle.
+    usage: /pt [verb] {args}
+    permissions:
+      playertitle.*:
+        description: This is the all permission for PlayerTitle
+        children:
+          playertitle.user: true
+          playertitle.admin: true
+      playertitle.user:
+        description: Allow you to do basic function
+        default: true
+      playertitle.admin:
+        description: Allow you to manager this plugin's config
+        default: op
+    permission-message: You need right to carry such a command.
